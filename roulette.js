@@ -84,6 +84,11 @@ button.addEventListener("mouseup", () => {
         spinning = true;
         rotateWheel();
     }
+    else {
+      speed = Math.random() * 10 + 5;
+      spinning = true;
+      rotateWheel();
+    }
     gaugeRunning = false;
 });
 
